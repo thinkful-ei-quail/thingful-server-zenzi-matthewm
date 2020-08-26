@@ -1,5 +1,4 @@
-import TokenService from '../services/token-service'
-import config from '..config'
+const config = require('../config');
 
 const xss = require('xss')
 const Treeize = require('treeize')
